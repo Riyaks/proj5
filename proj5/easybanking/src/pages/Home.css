@@ -1,0 +1,120 @@
+.caroo{
+    height:600px ;
+    width: 100%;
+}
+.d-block{
+    height:600px ;
+    width: 100%;
+}
+@media only screen and (max-width: 680px) {
+    .mteasy {
+      margin-bottom: 70px;
+     }
+   }
+   .nnn{
+    margin-top: 50px;
+    line-height: 30px;
+   }
+   .nnnn:hover{
+    transform: scale(1.1);
+   }
+   .vv{
+    width: 250px;
+    height: 250px;
+     filter:grayscale(40%);
+     transition: .5s ease;
+     backface-visibility: hidden;
+     cursor: pointer;
+    }
+
+    .cc{
+      
+        color:black;
+        font-size: 35px;
+        margin-left: 35px;
+        text-transform: capitalize;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 800;
+      }
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+      }
+      .vvv:hover .vv {
+        opacity: 0.5;
+       
+
+      }
+      
+      .vvv:hover .middle {
+        opacity: 1;
+        
+      }
+      .xx{
+        font-size: 25px;
+        margin-top: 18px;
+      }
+      .xxx{
+        font-size: 25px;
+        margin-top: 18px;
+        margin-left: 26px;
+      }
+      .conback{
+        background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fG9ubGluZSUyMGJhbmtpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+      }
+      
+      .zz{
+        box-shadow: 4px 4px 8px  black;
+        padding: 16px;
+        text-align: center;
+       color: white
+      
+      } 
+     .zzz{
+        font-size: 55px;
+       
+      
+     }
+     .ss{
+      width: 100%;
+      height: 40px;
+      margin-top:20px;
+     }
+  
+    .body2{
+      background-image: url('https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/importance-of-having-savings-717x404.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      color: white;
+      
+    }  
+      
+    .body1{
+      background-image: url("https://images.unsplash.com/photo-1633158829875-e5316a358c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhbmtpbmd8ZW58MHx8MHx8&w=1000&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+     }  
+     .body3{
+      background-image: url("https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/371fe2e8c3854448bf043ecc11ac0e7c.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height:670px;
+     }  
+     .main{
+      margin-top:70px;
+     }
+     @media only screen and (max-width: 600px) {
+      .main{
+        margin-top:200px;
+        
+      }
+    }

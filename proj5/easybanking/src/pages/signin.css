@@ -1,0 +1,72 @@
+.mm{
+    width: 300px;
+    height: 420px;
+    background: rgba(8, 99, 99, 0.2);
+    margin-left: 200px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:130PX;
+}
+@media only screen and (max-width: 600px) {
+  .mm{
+    margin-top: 300px;
+  }
+}
+
+.mmm{
+    margin-top: 20px;
+    border-radius: 6px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit1 {
+    background-color:black;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 20px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+   
+  }
+  .submit:active {
+    background-color: #06b;
+  }
+  
+.signupp{
+ cursor: pointer;
+}
+.hjg{
+ display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+ justify-content: center;
+ font-size: 18px;
+}
+.signuppp{
+ color: rgb(108, 10, 189);
+ margin-left: 8px;
+}
+.signuppp:hover{
+ text-decoration: underline;
+}
+.body4{
+  background-image: url("https://blogassets.airtel.in/wp-content/uploads/2022/03/4-reasons-postpaid-plans-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

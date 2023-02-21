@@ -1,0 +1,68 @@
+.mmk{
+    width: 600px;
+    height: 500px;
+    background: rgba(8, 99, 99, 0.2);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:130PX;
+}
+@media only screen and (max-width: 600px) {
+  .mmk{
+    margin-top: 300px;
+    width: 480px;
+  }
+}
+.colmmm{
+    border-radius: 6px;
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    border: 1px solid black;
+   }
+   @media only screen and (max-width: 600px) {
+    .colmmm{
+      width: 200px;
+    }
+  }
+
+.submit1 {
+    background-color:black;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 20px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+   
+  }
+  .submit:active {
+    background-color: #06b;
+  }
+  
+.signupp{
+ cursor: pointer;
+}
+.hjg{
+ display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+ justify-content: center;
+ font-size: 18px;
+}
+.colone{
+  margin-left:35px;
+}
+@media only screen and (max-width: 600px) {
+  .colone{
+   width: 500px;
+  }
+}

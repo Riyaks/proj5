@@ -1,0 +1,41 @@
+
+  .pp{
+    cursor: pointer;
+    text-align: center;
+  }
+  tr:hover{
+    background-color: #2b3533;
+  }
+
+  td{
+   font-weight: 400;
+   font-size:17px ;
+  }
+  th{
+    font-weight: 700;
+    font-size:20px ;
+  }
+  .oo:hover{
+    text-decoration: underline;
+    color: blue;
+  }
+  .ii{
+    font-weight: 600;
+  }
+  .tabletop{
+    margin-top:70px;
+  }
+  @media only screen and (max-width: 600px) {
+    .tabletop{
+      margin-top: 240px;
+    }
+  }
+  .body2{
+    height:800px;
+  }
+  @media only screen and (max-width: 600px) {
+    .body2{
+      height:1000px ;
+      
+    }
+  }
